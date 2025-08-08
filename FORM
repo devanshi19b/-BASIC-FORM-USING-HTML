@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first form</title>
+</head>
+<body>
+    <h2>This is my first form</h2>
+    <form>
+      <label for = "name">Name-</label>
+      <input typr="text" placeholder="Enter your name" id="name">
+      <br><br>
+      
+      <label for="email">email-</label>
+      <input type="text" placeholder="Enter your email" id="email" >
+      
+      <label for="password"> password</label> </label>
+        <input type="password" placeholder="Enter your password" id="password"
+        id="password"><br><br>
+        
+        <!--radiobutton-->
+        <lable>Please select your gender</lable>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for ="male">male</label>
+        
+        <input type="radio" name="gender" id="female" value="female">
+        <label for = "female">female</label>
+        
+        <input type="radio" name="gender" id="other" value="other">
+        <label for = "other">other</label>
+        
+        <input type="Submit" value="Please register">
+      </form>
+</body>
+</html>
