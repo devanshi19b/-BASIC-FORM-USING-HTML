@@ -6,7 +6,7 @@
     <title>My first form</title>
 </head>
 <body>
-    <h2>This is my first form</h2>
+    <h2>Student Registration Form</h2>
     <form>
       <label for = "name">Name-</label>
       <input typr="text" placeholder="Enter your name" id="name">
